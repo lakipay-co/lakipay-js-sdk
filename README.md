@@ -120,7 +120,7 @@ The SDK returns typed responses that map to your API documentation.
 
 #### 4.1 Direct Payments
 
-Initiate a direct payment through supported providers such as MPESA, TELEBIRR, CBE, ETHSWITCH, LAKIPAY, or CYBERSOURCE.
+Initiate a direct payment through supported providers such as MPESA, TELEBIRR, CBE, ETHSWITCH, or CYBERSOURCE.
 
 ```ts
 import { LakipaySDK, PaymentMethod, Currency } from "lakipay-js-sdk";
