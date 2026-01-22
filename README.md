@@ -32,7 +32,7 @@ import { LakipaySDK } from "lakipay-js-sdk";
 
 const sdk = new LakipaySDK({
   apiKey: "pk_test_xxx:sk_test_xxx", // X-API-Key value: PUBLICKEY:SECRETKEY
-  environment: "sandbox",            // "sandbox" | "production" | "custom"
+  environment: "sandbox",           
   // Optional:
   // baseUrl: "https://custom.api.lakipay.co", // required if environment: "custom"
   // timeoutMs: 20000,
